@@ -3,11 +3,9 @@ require 'pg'
 feature 'viewing bookmarks'  do
   scenario 'shows saved bookmarks to user' do
 
-  	connection = PG.connect(dbname: 'bookmark_manager_test')
-
-  	connection.exec("INSERT INTO bookmarks VALUES (1, 'www.google.com');")
-  	connection.exec("INSERT INTO bookmarks VALUES (2, 'www.facebook.com');")
-  	connection.exec("INSERT INTO bookmarks VALUES (3, 'www.twitter.com');")
+  	Bookmarks.create(url: 'www.google.com' )
+  	Bookmarks.create(url: 'www.facebook.com' )
+  	Bookmarks.create(url: 'www.twitter.com' )
 
     visit ('/bookmarks')
 
