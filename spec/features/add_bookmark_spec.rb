@@ -6,9 +6,10 @@ feature 'adding bookmarks'  do
   	visit('/bookmarks/new')
 
     fill_in('url', with: 'www.bookmark.test')
+    fill_in('title', with: 'Bookmark')
     click_button('Submit')
 
-    expect(page).to have_content 'www.bookmark.test'
+    expect(page).to have_link('Bookmark', href: 'www.bookmark.test')
 
   end
 end

@@ -4,21 +4,14 @@
       "/Users/student/Projects/bookmark-manager/spec/bookmarks_spec.rb": {
         "lines": [
           1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          1,
           1,
           null,
           1,
           null,
           1,
+          1,
           null,
-          null,
+          1,
           null,
           1,
           1,
@@ -26,8 +19,37 @@
           null,
           1,
           null,
+          1,
+          1,
+          1,
+          1,
+          1,
           null,
           null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Projects/bookmark-manager/spec/database_helpers.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
           null
         ]
       },
@@ -40,6 +62,7 @@
           null,
           1,
           null,
+          1,
           1,
           1,
           null,
@@ -78,10 +101,11 @@
           1,
           1,
           null,
+          null,
           null
         ]
       }
     },
-    "timestamp": 1598524877
+    "timestamp": 1598566106
   }
 }
