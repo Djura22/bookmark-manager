@@ -16,4 +16,12 @@ describe Bookmarks do
     end
   end
 
+  describe '.create' do
+  	it 'creates a new bookmark' do
+  		Bookmarks.create(url: 'www.bookmark.test')
+
+  		expect(Bookmarks.all).to include 'www.bookmark.test'
+  	end
+  end
+
 end
