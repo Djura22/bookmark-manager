@@ -39,6 +39,34 @@
           null,
           null,
           null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
           null
         ]
       },
@@ -72,11 +100,52 @@
           null
         ]
       },
+      "/Users/student/Projects/bookmark-manager/spec/features/deleting_a_bookmark_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/student/Projects/bookmark-manager/spec/features/test_infrastructure_spec.rb": {
         "lines": [
           null,
           null,
           1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Projects/bookmark-manager/spec/features/update_a_bookmark_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
           1,
           1,
           1,
@@ -106,6 +175,6 @@
         ]
       }
     },
-    "timestamp": 1598566106
+    "timestamp": 1598616196
   }
 }
